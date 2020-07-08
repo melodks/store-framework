@@ -2,8 +2,9 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "info-card#button-left",
-      "info-card#button-right"
+      "info-card#button-right",
+      "info-card#button-left"
+     
     ]
   },
   "rich-text": {
@@ -12,28 +13,28 @@
       "textPosition": "RIGHT"
     }
   },
-  "info-card#button-left": {
-    "props": {
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-      "headline": "Planeje sua cozinha como nunca",
-      "subhead": "A mais variedade de modelos para planejamento.",
-      "callToActionMode": "button",
-      "callToActionText": "Veja mais",
-      "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
-    }
-  },
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
-      "imageUrl": "https://cmoconstrutora.com.br/blog/wp-content/uploads/2020/02/modelos-de-fogao-cooktop-para-cozinha-01_6-700x450.jpg",
-      "headline": "As maiores variedades de COOKTOPS",
-      "subhead": "Veja os planejamentos.",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage Pink",
+      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
       "callToActionMode": "button",
-      "callToActionText": "Veja mais",
+      "callToActionText": "Explore",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-left": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+      "headline": "Shining chrome",
+      "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+      "callToActionMode": "",
+      "callToActionText": "Go to collection",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
