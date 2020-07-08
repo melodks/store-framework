@@ -1,13 +1,41 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "info-card#button-left",
+      "info-card#button-right"
     ]
   },
   "rich-text": {
     "props": {
       "text": "**Hello, World!**",
       "textPosition": "RIGHT"
+    }
+  },
+  "info-card#button-left": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Planeje sua cozinha como nunca",
+      "subhead": "A mais variedade de modelos para planejamento.",
+      "callToActionMode": "button",
+      "callToActionText": "Veja mais",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-right": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://cmoconstrutora.com.br/blog/wp-content/uploads/2020/02/modelos-de-fogao-cooktop-para-cozinha-01_6-700x450.jpg",
+      "headline": "As maiores variedades de COOKTOPS",
+      "subhead": "Veja os planejamentos.",
+      "callToActionMode": "button",
+      "callToActionText": "Veja mais",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
     }
   }
 }
