@@ -28,8 +28,7 @@
   },
 
   "flex-layout.col#right": {        
-    "children": [
-      "product-price",
+    "children": [     
       "product-name",
       "buy-button"
     ],
@@ -39,7 +38,12 @@
     }
   },
 
-  "product-price": {
+  "flex-layout.row#right": {
+    "children": [
+      "product-price"
+    ]
+  },
+   "product-price": {
     "props": {
       "showSavings": true,
       "showListPrice": false
