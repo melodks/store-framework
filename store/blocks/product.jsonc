@@ -76,7 +76,7 @@
   "sku-selector": {
     "props": {
             
-      "hideImpossibleCombinations": true
+      "hideImpossibleCombinations": false
       
 
     }
