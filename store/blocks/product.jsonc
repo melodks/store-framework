@@ -25,11 +25,11 @@
 
   "flex-layout.col#left": {
     "children": [
-      "shelf-layout#brand"
+      "stack-layout#brand"
     ]
   },
 
-  "shelf-layout#brand": {
+  "stack-layout#brand": {
     "children": [
       "product-images",
       "product-brand"
