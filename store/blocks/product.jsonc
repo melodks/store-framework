@@ -21,10 +21,16 @@
     ]
   },
 
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
+
   "flex-layout.col#right": {        
     "children": [
-      "product-name",
       "product-price",
+      "product-name",
       "buy-button"
     ],
     "props": {
@@ -37,6 +43,20 @@
     "props": {
       "showSavings": true,
       "showListPrice": false
+    }
+  },
+
+  "product-name": {
+    "props": {
+      "showSKU": true,
+      "showBrandName": true
+    }
+  },
+
+  "buy-button": {
+    "props": {
+      "isOneClickBuy": true,
+      "showTooltipOnSkuNotSelected": false
     }
   }
 }
