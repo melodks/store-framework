@@ -76,7 +76,7 @@
   "sku-selector": {
     "props": {
       "initialSelection": "empty",      
-      "visibility": "more-than-one",
+      "visibleVariations": "string[black, red, gray]",
       "showVariationsErrorMessage": true
 
     }
