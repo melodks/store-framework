@@ -76,7 +76,7 @@
   "sku-selector": {
     "props": {
       "ShowValueForVariation": "none",      
-      "visibility": "always",
+      "visibility": "more-than-one",
       "showVariationsErrorMessage": true
 
     }
