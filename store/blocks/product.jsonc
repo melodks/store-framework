@@ -31,5 +31,12 @@
       "verticalAlign": "middle",  
       "preventVerticalStretch": "height: auto" 
     }
+  },
+
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": false
+    }
   }
 }
