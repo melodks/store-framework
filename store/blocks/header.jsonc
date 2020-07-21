@@ -5,7 +5,7 @@
         "header-layout.mobile"
       ]
     },
-    
+
     "header.full": {
       "blocks": [
         "header-layout.desktop",
@@ -20,7 +20,7 @@
         "header-row#menu"
       ]
     },
-  
+      
     "header-layout.mobile": {
       "children": [
         "header-row#notification",
