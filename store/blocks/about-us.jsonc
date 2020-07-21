@@ -2,7 +2,7 @@
     "store.custom#about-us": {
       "blocks": [
         "flex-layout.row#about-us",
-        "lab-layout#home"
+        "tab-layout#home"
       ]
     },
     "flex-layout.row#about-us": {
@@ -39,7 +39,7 @@
       }
     },
 
-    "lab-layout#home": {
+    "tab-layout#home": {
         "children": [
             "tab-list#home",
             "tab-content#home"
@@ -56,7 +56,7 @@
     "tab-list.item#home1": {
       "props": {
         "tabId": "majorAppliances",
-        "labal": "Major Appliances",
+        "label": "Major Appliances",
         "defaultActiveTab": true
       }
     },
@@ -64,7 +64,7 @@
     "tab-list.item#home2": {
       "props": {
         "tabId": "electronics",
-        "labal": "Electronics"
+        "label": "Electronics"
       }
     },
 
@@ -100,7 +100,7 @@
         "font": "t-heading-3"
       }
     },
-    
+
     "rich-text#home2": {
       "props": {
         "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
