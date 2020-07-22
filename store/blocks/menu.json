@@ -5,8 +5,7 @@
       "menu-item#small-appliances",
       "menu-item#electronics"
     ],
-  
-    "props":{
+      "props":{
       "orientation": "horizontal"
     }
   },
