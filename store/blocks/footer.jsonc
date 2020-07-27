@@ -32,7 +32,8 @@
                 "mastercard", 
                 "visa", 
                 "diners club"
-            ]
+            ],
+            "showInColor": true
         }
     },
 
@@ -48,8 +49,9 @@
                 { "url": "https://facebook.com/foo", "name": "Facebook" },
                 { "url": "https://Instagram.com/foo", "name": "Instagram" },
                 { "url": "https://twitter.com/foo", "name": "Twitter" }
-            ]
+            ],
+            "showInColor": true
         }
     }
-    
+
 }
