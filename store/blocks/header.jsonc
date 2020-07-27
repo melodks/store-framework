@@ -5,6 +5,7 @@
       "header-layout.mobile"
     ]
   },
+
   "header.full": {
     "blocks": [
       "header-layout.desktop",
@@ -27,6 +28,7 @@
       "header-row#search"
     ]
   },
+
   "header-row#notification": {
     "children": [
       "header-spacer",
@@ -34,6 +36,7 @@
       "header-spacer"
     ]
   },
+
   "header-row#main": {
     "children": [
       "logo",
@@ -49,6 +52,7 @@
       "fullWidth": false
     }
   },
+
   "header-row#main-mobile": {
     "children": [
       "drawer",
@@ -72,6 +76,7 @@
       "sticky": true
     }
   },
+
   "login":{
     "props": {
       "showIconProfile": true,
@@ -84,12 +89,14 @@
       "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
     }
   },
+
   "rich-text#header": {
     "props": {
       "text": "**Free Shipping on orders over $50**",
       "textPosition": "CENTER"
     }
   },
+
   "header-row#menu": {
     "children": [
       "header-spacer",
