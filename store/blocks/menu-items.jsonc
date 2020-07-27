@@ -6,7 +6,8 @@
       "itemProps": {
         "text": "Major Aplliances"
       }
-    }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#major"]
   },
   "menu-item#small-appliances": {
       "props":
@@ -14,10 +15,11 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 2, 
+        "categoryId": 2,
         "text": "Small Appliances"
       }
-    }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#small"]
   },
   "menu-item#electronics": {
       "props":
@@ -25,10 +27,11 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 3, 
+        "categoryId": 3,
         "text": "Electronics"
       }
-    }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#electronics"]
   },
   "menu-item#refrigerators": {
       "props":
@@ -36,7 +39,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 4, 
+        "categoryId": 4,
         "text": "Refrigerators"
       }
     }
@@ -47,7 +50,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 5, 
+        "categoryId": 5,
         "text": "Ranges & Ovens"
       }
     }
@@ -58,7 +61,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 6, 
+        "categoryId": 6,
         "text": "Washers & Dryers"
       }
     }
@@ -69,7 +72,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 7, 
+        "categoryId": 7,
         "text": "Mixers & Blenders"
       }
     }
@@ -80,7 +83,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 8, 
+        "categoryId": 8,
         "text": "Toasters & Grills"
       }
     }
@@ -91,7 +94,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 9, 
+        "categoryId": 9,
         "text": "Coffee Makers"
       }
     }
@@ -102,7 +105,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 10, 
+        "categoryId": 10,
         "text": "TVs"
       }
     }
@@ -113,7 +116,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 11, 
+        "categoryId": 11,
         "text": "Laptops"
       }
     }
@@ -124,7 +127,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 12, 
+        "categoryId": 12,
         "text": "Cameras"
       }
     }
