@@ -20,15 +20,6 @@
     ]
   },
 
-  "header-row#menu": {
-    "children": [
-      "header-spacer",
-      "vtex.menu@2.x:menu#categories",
-      "header-spacer"
-    ]
-  },
-
-  
   "header-layout.mobile": {
     "children": [
       "header-row#notification",
@@ -93,11 +84,17 @@
       "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
     }
   },
-
   "rich-text#header": {
     "props": {
       "text": "**Free Shipping on orders over $50**",
       "textPosition": "CENTER"
     }
+  },
+  "header-row#menu": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#categories",
+      "header-spacer"
+    ]
   }
 }
